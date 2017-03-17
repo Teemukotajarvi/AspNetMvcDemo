@@ -19,5 +19,9 @@ namespace AspNetMvcDemo.Controllers
 
             return View(model);
         }
+        public ActionResult Index2()
+        {                 
+            return View();
+        }
     }
 }
